@@ -84,3 +84,39 @@ nav{
 .stand{
     text-decoration: underline 5px solid  hsl(7, 99%, 70%);   
 }
+
+
+.slate{
+    position: relative;
+    text-align: center;
+}
+
+.slate img{
+    width: 100%;
+}
+
+.cont{
+    position: absolute;
+    top: 60%;
+    padding: 0px 20px;
+}
+
+.cont h3{
+    font-family: var(--fraun);
+    font-size: 2rem;
+    
+}
+
+.graphics-content{
+    color: hsl(167, 40%, 24%);
+}
+
+.photography{
+    color: hsl(198, 62%, 26%);
+    margin-top: -4px;
+}
+
+
+
+
+
