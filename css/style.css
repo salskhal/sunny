@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+:root{
+    --fraun: "Fraunces", sans-serif;
+    --bar: "Barlow", sans-serif;
+}
+
+body{
+    /* background: lightcoral; */
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 70vh;
+    background: url("../images/mobile/image-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    padding: 30px 20px;
+}
+
+.hamburger{
+    margin-left: auto;
+}
+
+.landing{
+    text-align: center;
+    color: white;
+    font-family: var(--fraun);
+}
+
+.landing h1{
+    margin-top: 80px;
+    font-size: 2.5rem;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.landing img{
+    margin-top: 30px;
+}
+
+.same{
+    width: 100%;
+}
+
+.same img{
+    width: 100%;
+}
+
+.tame{
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.tame h2{
+    font-family: var(--fraun);
+    font-size: 2rem;
+    color: hsl(212, 27%, 19%);
+    font-weight: 900;
+}
+
+.tame p{
+    font-family: var(--bar);
+    color:  hsl(210, 4%, 67%);
+    font-size: 1.2rem;
+}
+
+.learn{
+    font-family: var(--fraun);
+    font-size: 1.2rem;
+}
+
+.trans{
+    text-decoration: underline 5px solid yellow;   
+}
+
+.stand{
+    text-decoration: underline 5px solid  hsl(7, 99%, 70%);   
+}
