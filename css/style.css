@@ -98,22 +98,69 @@ nav{
 .cont{
     position: absolute;
     top: 60%;
-    padding: 0px 20px;
+    /* padding: 0px 20px; */
+    left: 50%;
+    /* background: red; */
+    transform: translate(-50%);
+    width: 90%;
 }
 
 .cont h3{
     font-family: var(--fraun);
-    font-size: 2rem;
-    
+    font-size: 2rem;   
 }
+
+.cont p{
+    font-family: var(--bar);
+}
+
 
 .graphics-content{
     color: hsl(167, 40%, 24%);
 }
 
-.photography{
+.photography{   
     color: hsl(198, 62%, 26%);
     margin-top: -4px;
+}
+
+
+.testimonial{
+    text-align: center;
+}
+
+.testimonial h3{
+    font-family: var(--fraun);
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 3px;
+}
+
+
+.client{
+    padding: 20px 40px;
+}
+.client-image{
+    width: 70px;
+    border-radius: 100%;
+}
+
+.client-words{
+    font-family: var(--bar);
+    color:hsl(213, 9%, 39%);
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+.client-profile h4{
+    font-family: var(--fraun);
+    color:  hsl(212, 27%, 19%);
+    font-size: 1.2rem;
+}
+
+.client-profile p{
+    font-family: var(--bar);
+    color: hsl(210, 4%, 67%);
+    margin-top: -10px;
 }
 
 
